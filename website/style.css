@@ -1,0 +1,29 @@
+.subunit.SCT { fill: black; }     /* Map color - Hide Ireland*/
+.subunit.WLS { fill: black; }
+.subunit.NIR { fill: black; }
+.subunit.ENG { fill: black; }
+.subunit.IRL { display: none; }
+
+body {
+  background-color: Gray;   /* Set page background color to gray */
+}
+
+#tooltip {
+	position: absolute; 
+	width: auto;
+	height: auto;
+	padding: 10px;  /* Distance text and border */
+	background-color: white;
+	border-radius: 10px; /* add rounded corners to elements */
+	box-shadow: 4px 4px 10px #888888; /* value x, value y, opacity, color */
+	
+}
+#tooltip p {
+	margin: 0; /* space around elements */
+	font-family: monospace;
+    font-size: 13px;
+	
+}
+#tooltip.hidden {
+    display: none; /* hide tooltip when mouseout */
+}

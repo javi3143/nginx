@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Andy Cobley "andy@r2-dvd.org"
+MAINTAINER Javier Ruiz "j.ruizperez@dundee.ac.uk"
 ENV REFRESHED_AT 2015-28-04
 RUN apt-get update
 RUN apt-get install -y nginx
